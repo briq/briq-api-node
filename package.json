@@ -1,0 +1,32 @@
+{
+  "name": "briq-api",
+  "version": "0.0.1",
+  "description": "A node client for the Briq API",
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiveBriq/briq-api-node.git"
+  },
+  "keywords": [
+    "briq",
+    "api",
+    "client",
+    "sdk"
+  ],
+  "author": "LaurentVB",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GiveBriq/briq-api-node/issues"
+  },
+  "homepage": "https://github.com/GiveBriq/briq-api-node#readme",
+  "engines": {
+    "node": ">=6"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "node-fetch": "^1.6.3"
+  }
+}
