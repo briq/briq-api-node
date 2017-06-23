@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GiveBriq/briq-api-node.git"
+    "url": "git+https://github.com/briq/briq-api-node.git"
   },
   "keywords": [
     "briq",
@@ -19,14 +19,14 @@
   "author": "LaurentVB",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GiveBriq/briq-api-node/issues"
+    "url": "https://github.com/briq/briq-api-node/issues"
   },
-  "homepage": "https://github.com/GiveBriq/briq-api-node#readme",
+  "homepage": "https://github.com/briq/briq-api-node#readme",
   "engines": {
     "node": ">=6"
   },
   "dependencies": {
     "lodash": "^4.17.4",
-    "node-fetch": "^1.6.3"
+    "node-fetch": "^1.7.1"
   }
 }
