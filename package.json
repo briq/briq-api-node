@@ -1,6 +1,6 @@
 {
   "name": "briq-api",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A node client for the Briq API",
   "main": "./lib",
   "scripts": {
