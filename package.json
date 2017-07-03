@@ -4,7 +4,9 @@
   "description": "A node client for the Briq API",
   "main": "./lib",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .js lib",
+    "lint:fix": "eslint --ext .js --fix lib"
   },
   "repository": {
     "type": "git",
@@ -28,5 +30,10 @@
   "dependencies": {
     "lodash": "^4.17.4",
     "node-fetch": "^1.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.6.1"
   }
 }

@@ -60,3 +60,6 @@ typings/
 # Sublime
 *.sublime-project
 *.sublime-workspace
+
+# Yarn
+yarn.lock
