@@ -44,3 +44,17 @@ return briq.organization('YOUR_ORGANIZATION_NAME').users()
     return users;
   });
 ```
+
+## Documentation
+
+The Briq API is documented at https://www.givebriq.com/build (getting started) and https://briq.github.io (detailed documentation).
+
+The following methods are exposed by this API client:
+
+- `.organization(name).info()` returns the info about your organization
+- `.organization(name).users()` returns a list of the users in your organization (paging available)
+- `.organization(name).user(username)` returns information about a user of your organization
+- `.organization(name).transactions()` returns a list of the latest transactions in your organization, from most recent to oldest (paging available)
+- `.organization(name).transaction(transactionId)` returns the details of a transaction
+- `.organization(name).createTransaction(transactionObject)` creates a new transaction in your organization
+- `.organization(name).refundTransaction(transactionId)` refunds and deletes a transaction
